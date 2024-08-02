@@ -1,10 +1,10 @@
 <template>
-    <div class="min-h-screen bg-gray-100 text-gray-900 flex justify-center ">
+    <div class="min-h-screen flex justify-center ">
     <div class="max-w-screen-xl m-12 sm:m-10 bg-gray-900 shadow sm:rounded-lg flex justify-center flex-1">
         <div class="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
-            <div class="mt-12 flex flex-col items-center">
+            <div class="mt-24 ml-20 flex flex-col items-center">
                 <h1 class="text-2xl xl:text-3xl font-extrabold text-gray-100">
-                    Sign up
+                    Sign In
                 </h1>
                 <div class="w-full flex-1 mt-8">
                     <div class="flex flex-col items-center">
@@ -32,7 +32,7 @@
                         </button>
 
                         <button
-                            class="w-full  font-bold shadow-sm rounded-lg py-3 bg-gray-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
+                            class="w-full font-bold shadow-sm rounded-lg py-3 bg-gray-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
                             <div class="bg-white p-1 rounded-full">
                                 <svg class="w-6" viewBox="0 0 32 32">
                                     <path fill-rule="evenodd"
@@ -54,16 +54,16 @@
                         
                         <a href="/home">
                             <button
-                                class="mt-5 tracking-wide font-semibold bg-red-700 text-gray-100 w-full py-4 rounded-lg hover:bg-red-900 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
+                                class="mt-5 tracking-wide font-semibold bg-red-700 text-gray-100 w-full py-4 rounded-lg hover:bg-gray-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                                 <svg class="w-6 h-6 -ml-2" fill="none" stroke="currentColor" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
                                     <circle cx="8.5" cy="7" r="4" />
-                                    <path d="M20 8v6M23 11h-6" />
+                                    <!-- <path d="M20 8v6M23 11h-9" /> -->
                                 </svg>
                                 <span class="ml-3">
                                     Iniciar Sesión
-                                </span>     
+                                </span>
                             </button>
                         </a>
 
@@ -89,9 +89,9 @@
                 </div>
             </div>
         </div>
-        <div class="flex-1 bg-indigo-100 text-center hidden lg:flex">
-            <div class="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
-                style="background-image: url('https://storage.googleapis.com/devitary-image-host.appspot.com/15848031292911696601-undraw_designer_life_w96d.svg');">
+        <div class="flex-1 bg-gray-900 text-center hidden lg:flex">
+            <div class="m-12 w-full bg-contain bg-center bg-no-repeat"
+                style="background-image: url('https://imgs.search.brave.com/wRpc4525FFIjVnyo56N6skWxpk8Pa7DTxzT5VlHG4b0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/bXVqZXItdGlyby1j/b21wbGV0by1heXVk/YW5kby1ob21icmVz/LWdpbW5hc2lvXzIz/LTIxNDk3NDQ2ODAu/anBnP3NpemU9NjI2/JmV4dD1qcGc');">
             </div>
         </div>
     </div>
